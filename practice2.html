@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Practice2 PemWeb</title>
+    <style>
+      body {
+        background-color: #03dac6;
+      }
+    </style>
+  </head>
+  <body>
+    <form>
+      <h1>FORMULIR VALIDASI</h1>
+      <label for="fname">Nama : </label>
+      <input
+        type="text"
+        id="name"
+        name="names"
+        value="Setyoko Almuludin"
+      /><br />
+
+      <label for="nim">NIM : </label>
+      <input type="number" id="nim" name="nim" value="21102128" /><br />
+
+      <label for="fname">kelas : </label>
+      <input type="text" id="class" name="class" value="S1IF-09-TI1" /><br />
+
+      <p>Tanggal Lahir :</p>
+      <input type="date" id="birthday" name="birthday" />
+
+      <p>Jenis Kelamin :</p>
+      <input type="radio" name="gender" id="laki-laki" value="laki-laki" />
+      <label for="laki-laki">laki-laki</label>
+      <input type="radio" name="gender" id="wanita" value="wanita" />
+      <label for="wanita">wanita</label>
+      <input type="radio" name="gender" id="lainnya" value="lainnya" />
+      <label for="lainnya">lainnya</label>
+
+      <p>Hobi :</p>
+      <input type="checkbox" name="hobi" id="bl" value="bl" />
+      <label for="bl">Billiard</label>
+      <input type="checkbox" name="hobi" id="tm" value="tm" />
+      <label for="tm">Tenis Meja</label>
+      <input type="checkbox" name="hobi" id="ml" value="ml" />
+      <label for="ml">Mobile Legends</label><br />
+      <input type="checkbox" name="hobi" id="lin" value="lin" />
+      <label for="lin">lainnya : </label>
+      <input type="text" id="lainnya" name="Matakuliah" /><br /><br />
+
+      <label for="Warna">Warna Yang disukai : </label>
+      <input type="color" id="Warna" name="Warna" /><br /><br />
+
+      <label for="foto">Foto Diri : </label>
+      <input type="file" name="foto" id="foto" />
+
+      <p>Peminatan Matakuliah :</p>
+      <input type="radio" name="pmk" id="TI" value="TI" />
+      <label for="TI">Teknologi Informasi</label>
+      <input type="radio" name="pmk" id="sc" value="sc" />
+      <label for="sc">Sistem Cerdas</label>
+      <input type="radio" name="pmk" id="mm" value="mm" />
+      <label for="mm">MultiMedia</label><br /><br />
+
+      <label for="alasan">Alasan Peminatan : </label>
+      <textarea
+        name="alasan"
+        id="alasan"
+        rows="5"
+        cols="30"
+        minlength="10"
+        maxlength="200"
+        disabled
+      ></textarea>
+    </form>
+  </body>
+</html>
